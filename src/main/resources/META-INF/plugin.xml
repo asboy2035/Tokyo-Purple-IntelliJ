@@ -3,6 +3,8 @@
   <id>com.asboy2035.tokyodark-purple</id>
   <name>Tokyo Dark Purple</name>
   <vendor email="ash@asboy2035.com" url="https://github.com/asboy2035/IntelliJ-Themes">asboy2035</vendor>
+  <version>0.0.1</version>
+  <idea-version since-build="213" until-build="241.*"/>
   <depends>com.intellij.modules.platform</depends>
 
   <extensions defaultExtensionNs="com.intellij">

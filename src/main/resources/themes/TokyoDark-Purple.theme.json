@@ -125,7 +125,7 @@
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionBackground",
       "matchForeground": "orange",
-      "selectionInnerInsets.compact": "2,2,2,2"
+      "selectionInnerInsets.compact": "0,2,0,2"
     },
     "Component": {
       "arrowAreaWidth": "28",
