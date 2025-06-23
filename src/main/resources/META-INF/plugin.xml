@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
 <idea-plugin>
-    <id>com.junkfactory.tokyodark</id>
-    <name>Tokyo Dark Theme</name>
-    <vendor email="2998269+junkfactory@users.noreply.github.com" url="https://github.com/junkfactory/tokyodark-jetbrains">Junk F. Actory</vendor>
-    <depends>com.intellij.modules.platform</depends>
-    <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="com.junkfactory.tokyodark" path="/themes/TokyoDark.theme.json"/>
-        <themeProvider id="com.junkfactory.tokyodark-storm" path="/themes/TokyoDarkStorm.theme.json"/>
-        <themeProvider id="com.junkfactory.tokyodark-contrast" path="/themes/TokyoDarkContrast.theme.json"/>
-    </extensions>
+  <id>com.asboy2035.tokyodark-purple</id>
+  <name>Tokyo Dark Purple</name>
+  <vendor email="ash@asboy2035.com" url="https://github.com/asboy2035/IntelliJ-Themes">asboy2035</vendor>
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="com.asboy2035.tokyodark-purple" path="/themes/TokyoDark-Purple.theme.json"/>
+  </extensions>
 </idea-plugin>

@@ -1,26 +1,26 @@
 {
-  "name": "TokyoDark Storm",
+  "name": "TokyoDark Purple",
   "dark": true,
-  "author": "Junk F. Actory <2998269+junkfactory@users.noreply.github.com>",
-  "editorScheme": "/themes/TokyoDarkStorm.xml",
+  "author": "ash Ketchup <ash@asboy2035.com>",
+  "editorScheme": "/themes/TokyoDark-Purple.xml",
   "colors": {
-    "bgHi": "#202435",
-    "bg": "#24283b",
-    "terminalBlack": "#414868",
-    "fg": "#c0caf5",
+    "bgHi": "#191321",
+    "bg": "#15121c",
+    "terminalBlack": "#15121c",
+    "fg": "#d2c0f5",
     "fgDark": "#a9b1d6",
     "fgGutter": "#3b4261",
     "dark3": "#545c7e",
     "comment": "#565f89",
     "dark5": "#737aa2",
-    "blue0": "#3d59a1",
-    "blue": "#7aa2f7",
+    "purp0": "#5e3da1",
+    "purp": "#9d7af7",
     "cyan": "#7dcfff",
-    "blue1": "#2ac3de",
-    "blue2": "#0db9d7",
-    "blue5": "#89ddff",
-    "blue6": "#B4F9F8",
-    "blue7": "#394b70",
+    "purp1": "#572ade",
+    "purp2": "#500dd7",
+    "purp5": "#b489ff",
+    "purp6": "#c8b4f9",
+    "purp7": "#453970",
     "magenta": "#bb9af7",
     "magenta2": "#ff007c",
     "purple": "#9d7cd8",
@@ -30,42 +30,38 @@
     "green1": "#73daca",
     "green2": "#41a6b5",
     "teal": "#1abc9c",
-    "red": "#f7768e",
-    "red1": "#db4b4b",
+    "red": "#ff4879",
+    "red1": "#e71363",
     "hoverBackground": "#232433",
-    "selectionInactiveBackground": "#414868",
+    "selectionInactiveBackground": "#4b4168",
     "separatorColor": "#36374F",
-    "selectionBackground": "#304285",
+    "selectionBackground": "#502e7c",
     "shadowColor": "#161823"
   },
   "ui": {
     "*": {
-      "acceleratorForeground": "blue",
-      "acceleratorSelectionForeground": "blue",
-      "arc": 7,
+      "acceleratorForeground": "purp",
+      "acceleratorSelectionForeground": "purp",
+      "arc": 14,
       "background": "bg",
       "foreground": "fgDark",
       "caretForeground": "fgDark",
       "infoForeground": "fgDark",
       "selectionForeground": "fg",
       "selectionInactiveForeground": "fg",
-      "selectionBackground": "selectionBackground",
+      "selectionBackground": "#4c3085",
       "selectionInactiveBackground": "selectionInactiveBackground",
       "inactiveBackground": "bgHi",
       "disabledBackground": "bgHi",
       "disabledBorderColor": "bgHi",
       "disabledForeground": "dark5",
-      "borderColor": "bg",
+      "borderColor": "bgHi",
       "separatorColor": "separatorColor"
     },
     "MemoryIndicator": {
       "usedBackground": "#455591",
       "allocatedBackground": "#59689d"
     },
-    "Label.foreground": "fgDark",
-    "Label.background": "bg",
-    "Panel.background": "bg",
-    "Window.border": "1,1,1,1,24283b",
     "Borders": {
       "color": "bgHi",
       "ContrastBorderColor": "hoverBackground"
@@ -77,7 +73,7 @@
       "pressedBorderColor": "hoverBackground"
     },
     "Bookmark": {
-      "iconBackground": "blue",
+      "iconBackground": "purp",
       "Mnemonic": {
         "iconForeground": "fg"
       }
@@ -87,16 +83,16 @@
       "startBorderColor": "hoverBackground",
       "endBorderColor": "hoverBackground",
       "shadowColor": "shadowColor",
-      "startBackground": "bg",
-      "endBackground": "bg",
-      "focusedBorderColor": "blue0",
+      "startBackground": "hoverBackground",
+      "endBackground": "hoverBackground",
+      "focusedBorderColor": "purp0",
       "disabledBorderColor": "bgHi",
       "default": {
         "foreground": "bg",
-        "startBackground": "blue",
-        "endBackground": "blue",
-        "startBorderColor": "blue0",
-        "endBorderColor": "blue0",
+        "startBackground": "purp",
+        "endBackground": "purp",
+        "startBorderColor": "purp0",
+        "endBorderColor": "purp0",
         "focusColor": "fg",
         "focusedBorderColor": "fg"
       }
@@ -107,14 +103,14 @@
     },
     "Counter": {
       "foreground": "bgHi",
-      "background": "blue0"
+      "background": "purp0"
     },
     "ComboBox": {
       "ArrowButton": {
         "background": "hoverBackground",
         "nonEditableBackground": "hoverBackground",
         "disabledIconColor": "comment",
-        "iconColor": "blue"
+        "iconColor": "purp"
       },
       "selectionBackground": "selectionBackground",
       "nonEditableBackground": "hoverBackground"
@@ -129,36 +125,36 @@
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionBackground",
       "matchForeground": "orange",
-      "selectionInnerInsets.compact": "0,2,0,2"
+      "selectionInnerInsets.compact": "2,2,2,2"
     },
     "Component": {
       "arrowAreaWidth": "28",
       "focusColor": "hoverBackground",
       "borderColor": "bgHi",
-      "focusedBorderColor": "blue0",
-      "disabledBorderColor": "blue0",
+      "focusedBorderColor": "purp0",
+      "disabledBorderColor": "purp0",
       "errorFocusColor": "red1",
       "inactiveErrorFocusColor": "red1",
       "warningFocusColor": "yellow",
       "inactiveWarningFocusColor": "yellow"
     },
     "DragAndDrop": {
-      "borderColor": "blue0"
+      "borderColor": "purp0"
     },
     "DefaultTabs": {
       "background": "bg",
       "borderColor": "hoverBackground",
       "hoverBackground": "hoverBackground",
       "inactiveUnderlineColor": "comment",
-      "underlineColor": "blue"
+      "underlineColor": "purp"
     },
     "EditorTabs": {
       "underlineHeight.compact": 1,
       "underlinedTabBackground": "hoverBackground"
     },
     "Editor": {
-      "background": "bg",
-      "shortcutForeground": "blue"
+      "background": "bgHi",
+      "shortcutForeground": "purp"
     },
     "FileColor": {
       "Blue": "#7AA2F71a",
@@ -172,8 +168,8 @@
       "borderColor": "hoverBackground"
     },
     "Link": {
-      "activeForeground": "blue",
-      "hoverForeground": "blue",
+      "activeForeground": "purp",
+      "hoverForeground": "purp",
       "visitedForeground": "magenta",
       "pressedForeground": "magenta"
     },
@@ -229,9 +225,9 @@
         "installFillForeground": "bgHi",
         "installFillBackground": "magenta",
         "installFocusedBackground": "bgHi",
-        "updateBorderColor": "blue",
+        "updateBorderColor": "purp",
         "updateForeground": "fg",
-        "updateBackground": "blue"
+        "updateBackground": "purp"
       },
       "Tab": {
         "selectedBackground": "hoverBackground",
@@ -243,8 +239,8 @@
       "failedEndColor": "red",
       "failedColor": "red1",
       "trackColor": "selectionBackground",
-      "progressColor": "blue",
-      "indeterminateStartColor": "blue",
+      "progressColor": "purp",
+      "indeterminateStartColor": "purp",
       "indeterminateEndColor": "magenta",
       "passedEndColor": "green1",
       "passedColor": "green"
@@ -284,8 +280,8 @@
       }
     },
     "SearchMatch": {
-      "startBackground": "blue0",
-      "endBackground": "blue0"
+      "startBackground": "purp0",
+      "endBackground": "purp0"
     },
     "Separator": {
       "separatorColor": "separatorColor"
@@ -305,7 +301,7 @@
       "tabSelectionHeight": 1,
       "focusColor": "hoverBackground",
       "hoverColor": "hoverBackground",
-      "underlineColor": "blue",
+      "underlineColor": "purp",
       "contentAreaColor": "bgHi"
     },
     "Table": {
@@ -345,7 +341,7 @@
       },
       "Header": {
         "background": "bg",
-        "inactiveBackground": "bg",
+        "inactiveBackground": "bgHi",
         "borderColor": "hoverBackground"
       },
       "HeaderTab": {
@@ -359,7 +355,7 @@
     },
     "Tree": {
       "background": "bg",
-      "modifiedItemForeground": "blue",
+      "modifiedItemForeground": "purp",
       "hoverBackground": "hoverBackground",
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
@@ -371,7 +367,7 @@
       "warningBackground": "bgHi",
       "warningBorderColor": "orange"
     },
-    "ToolTip.shortcutForeground": "blue",
+    "ToolTip.shortcutForeground": "purp",
     "VersionControl": {
       "FileHistory": {
         "Commit": {
@@ -382,7 +378,7 @@
         "headIconColor": "yellow",
         "localBranchIconColor": "green",
         "remoteBranchIconColor": "magenta",
-        "tagIconColor": "blue",
+        "tagIconColor": "purp",
         "otherIconColor": "green"
       },
       "Log": {
@@ -396,19 +392,16 @@
       }
     },
     "WelcomeScreen": {
-      "background": "bg",
       "SidePanel": {
         "background": "bg"
       },
       "separatorColor": "fgGutter",
       "Projects": {
         "background": "bg",
-        "selectionBackground": "selectionBackground",
+        "selectionBackground": "hoverBackground",
         "selectionInactiveBackground": "hoverBackground",
         "actions": {
-          "background": "bg",
-          "selectionBackground": "selectionBackground",
-          "selectionBorderColor": "selectionBackground"
+          "background": "hoverBackground"
         }
       }
     },
