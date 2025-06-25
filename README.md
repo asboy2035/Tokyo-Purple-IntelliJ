@@ -1,15 +1,15 @@
-# TokyoDark Purple
+# Tokyo Purple
 
-![Screenshot](/images/TokyoDark-Purple.png)
+![Dark Mode Screenshot](/images/TokyoDark-Purple-New.png)
+![Light Mode Screenshot](/images/TokyoLight-Purple.png)
 
 [Get on JetBrains Marketplace](https://plugins.jetbrains.com/plugin/27737-tokyo-dark-purple?noRedirect=true)
 
 <!-- Plugin description -->
 Note: this theme is currently designed primarily for HTML/CSS/JS, Vue/Nuxt, and C. While it works with other languages, the quality may vary.
 
-**TokyoDark Purple** is a purple-tinted, Tokyo Night–inspired theme for JetBrains IDEs with soft visuals, deep contrast, and Fleet-style syntax highlighting.
-
-Designed for developers who love a dark aesthetic with just enough mood to feel like a rainy night in Shibuya.
+**Tokyo Purple** is a set of purple-tinted, Tokyo Night–inspired themes for JetBrains IDEs with soft visuals, deep contrast, and Fleet-style syntax highlighting. 
+Includes light and dark mode. 
 
 ## Features
 

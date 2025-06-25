@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
 <idea-plugin>
-  <id>com.asboy2035.tokyodark-purple</id>
-  <name>Tokyo Dark Purple</name>
+  <id>com.asboy2035.tokyo-purple</id>
+  <name>Tokyo Purple</name>
   <vendor email="ash@asboy2035.com" url="https://github.com/asboy2035/IntelliJ-Themes">asboy2035</vendor>
-  <version>0.0.2</version>
+  <version>0.1.0</version>
   <idea-version since-build="213" until-build="251.*"/>
   <depends>com.intellij.modules.platform</depends>
 
   <extensions defaultExtensionNs="com.intellij">
     <themeProvider id="com.asboy2035.tokyodark-purple" path="/themes/TokyoDark-Purple.theme.json"/>
+    <themeProvider id="com.asboy2035.tokyolight-purple" path="/themes/TokyoLight-Purple.theme.json"/>
   </extensions>
 </idea-plugin>
