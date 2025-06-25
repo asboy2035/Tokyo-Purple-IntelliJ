@@ -2,7 +2,7 @@
 
 ![Screenshot](/images/TokyoDark-Purple.png)
 
-[Get on JetBrains Marketplace](https://plugins.jetbrains.com/plugin/27737-tokyo-dark-purple/edit)
+[Get on JetBrains Marketplace](https://plugins.jetbrains.com/plugin/27737-tokyo-dark-purple?noRedirect=true)
 
 <!-- Plugin description -->
 Note: this theme is currently designed primarily for HTML/CSS/JS, Vue/Nuxt, and C. While it works with other languages, the quality may vary.
