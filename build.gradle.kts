@@ -38,10 +38,7 @@ dependencies {
 
         // Plugin Dependencies. Uses `platformBundledPlugins` property from the gradle.properties file for bundled IntelliJ Platform plugins.
         val bundled = providers.gradleProperty("platformBundledPlugins")
-            .map {
-                val list = it.split(',').map(String::trim).filter(String::isNotBlank)
-                if ("Kotlin" !in list) list + "Kotlin" else list
-            }
+            .map { it.split(',').map(String::trim).filter(String::isNotBlank) }
 
         bundledPlugins(bundled)
 
