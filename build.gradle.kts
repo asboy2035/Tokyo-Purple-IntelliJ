@@ -37,11 +37,13 @@ dependencies {
         create(providers.gradleProperty("platformType"), providers.gradleProperty("platformVersion"), useInstaller = false)
 
         // Plugin Dependencies. Uses `platformBundledPlugins` property from the gradle.properties file for bundled IntelliJ Platform plugins.
-        // Add "Kotlin" explicitly as a bundled plugin.
-        bundledPlugins(
-            providers.gradleProperty("platformBundledPlugins").map { it.split(',') }.
-                map { it + "Kotlin" }
-        )
+        val bundled = providers.gradleProperty("platformBundledPlugins")
+            .map {
+                val list = it.split(',').map(String::trim).filter(String::isNotBlank)
+                if ("Kotlin" !in list) list + "Kotlin" else list
+            }
+
+        bundledPlugins(bundled)
 
         pluginVerifier()
         zipSigner()
