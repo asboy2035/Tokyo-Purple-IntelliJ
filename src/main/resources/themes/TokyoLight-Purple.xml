@@ -798,6 +798,18 @@
         <option name="FONT_TYPE" value="2"/>
       </value>
     </option>
+    <option name="JS.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="7B6D9E"/>
+        <option name="FONT_TYPE" value="2"/>
+      </value>
+    </option>
+    <option name="TS.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="7B6D9E"/>
+        <option name="FONT_TYPE" value="2"/>
+      </value>
+    </option>
     <option name="JSON.PROPERTY_KEY">
       <value>
         <option name="FOREGROUND" value="6B7A99"/>
