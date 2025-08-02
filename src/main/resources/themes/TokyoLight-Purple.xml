@@ -757,7 +757,7 @@
     </option>
     <option name="JS.MODULE_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="628D99"/>
+        <option name="FOREGROUND" value="7B6D9E"/>
       </value>
     </option>
     <option name="JS.MODULE_NAME">
@@ -794,7 +794,7 @@
     </option>
     <option name="JS.VAR_DEF">
       <value>
-        <option name="FOREGROUND" value="6E5B94"/>
+        <option name="FOREGROUND" value="7B6D9E"/>
         <option name="FONT_TYPE" value="2"/>
       </value>
     </option>
@@ -936,7 +936,7 @@
     </option>
     <option name="MARKDOWN_LINK_LABEL">
       <value>
-        <option name="FOREGROUND" value="9C5B65"/>
+        <option name="FOREGROUND" value="7B6D9E"/>
         <option name="FONT_TYPE" value="2"/>
       </value>
     </option>

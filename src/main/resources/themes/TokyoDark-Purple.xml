@@ -793,7 +793,7 @@
     </option>
     <option name="JS.VAR_DEF">
       <value>
-        <option name="FOREGROUND" value="e0b0ff"/>
+        <option name="FOREGROUND" value="A997F6"/>
         <option name="FONT_TYPE" value="2"/>
       </value>
     </option>
@@ -935,7 +935,7 @@
     </option>
     <option name="MARKDOWN_LINK_LABEL">
       <value>
-        <option name="FOREGROUND" value="ff7b8b"/>
+        <option name="FOREGROUND" value="A997F6"/>
         <option name="FONT_TYPE" value="2"/>
       </value>
     </option>
