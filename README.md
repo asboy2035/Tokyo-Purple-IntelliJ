@@ -1,6 +1,6 @@
 # Tokyo Purple
 
-![Dark Mode Screenshot](/images/TokyoDark-Purple-New.png)
+![Dark Mode Screenshot](/images/TokyoDark-Purple-new.png)
 ![Light Mode Screenshot](/images/TokyoLight-Purple.png)
 
 [Get on JetBrains Marketplace](https://plugins.jetbrains.com/plugin/27737-tokyo-dark-purple?noRedirect=true)
