@@ -1,0 +1,36 @@
+name: Build and Send Plugin to Telegram
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - name: Set up Gradle
+        uses: gradle/gradle-build-action@v2
+
+      - name: Build Plugin
+        run: ./gradlew buildPlugin
+
+      - name: Send Plugin to Telegram
+        run: |
+          FILE=$(ls build/distributions/*.zip | head -n 1)
+          curl -F chat_id=$TELEGRAM_CHAT_ID \
+               -F document=@"$FILE" \
+               -F caption="New build has been recieved." \
+               https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendDocument
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
