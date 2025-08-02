@@ -37,10 +37,11 @@ dependencies {
         create(providers.gradleProperty("platformType"), providers.gradleProperty("platformVersion"), useInstaller = false)
 
         // Plugin Dependencies. Uses `platformBundledPlugins` property from the gradle.properties file for bundled IntelliJ Platform plugins.
-        bundledPlugins(providers.gradleProperty("platformBundledPlugins").map { it.split(',') })
-
-        // Plugin Dependencies. Uses `platformPlugins` property from the gradle.properties file for plugin from JetBrains Marketplace.
-        plugins(providers.gradleProperty("platformPlugins").map { it.split(',') })
+        // Add "Kotlin" explicitly as a bundled plugin.
+        bundledPlugins(
+            providers.gradleProperty("platformBundledPlugins").map { it.split(',') }.
+                map { it + "Kotlin" }
+        )
 
         pluginVerifier()
         zipSigner()
