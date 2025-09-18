@@ -51,7 +51,7 @@
       "infoForeground": "fgDark",
       "selectionForeground": "fgSelection",
       "selectionInactiveForeground": "fgSelection",
-      "selectionBackground": "#4c3085",
+      "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
       "inactiveBackground": "bgHi",
       "disabledBackground": "bgHi",
