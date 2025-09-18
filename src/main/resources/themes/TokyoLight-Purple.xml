@@ -4,7 +4,7 @@
     <option name="ANNOTATIONS_COLOR" value="6E5B94"/>
     <option name="CARET_COLOR" value="3A3A42"/>
     <option name="CARET_ROW_COLOR" value="E8E8EF"/>
-    <option name="CONSOLE_BACKGROUND_KEY" value="F0E8FF"/>
+    <option name="CONSOLE_BACKGROUND_KEY" value="c5b7f6"/>
     <option name="DELETED_LINES_COLOR" value="9C5B65"/>
     <option name="DIAGRAM_ANNOTATION_EDGE" value="7B6D9E"/>
     <option name="DIAGRAM_DEFAULT_EDGE" value="AABBE0"/>
@@ -1167,7 +1167,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="3A3A42"/>
-        <option name="BACKGROUND" value="F0E8FF"/>
+        <option name="BACKGROUND" value="c5b7f6"/>
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">

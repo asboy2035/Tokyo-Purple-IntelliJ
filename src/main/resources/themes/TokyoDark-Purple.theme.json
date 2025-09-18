@@ -36,15 +36,15 @@
     "hoverBackground": "#220f44",
     "gradientBottom": "#44359c",
     "selectionInactiveBackground": "#281c4f",
-    "separatorColor": "#36374F",
     "selectionBackground": "#2a1d5b",
+    "separatorColor": "#36374F",
     "shadowColor": "#161823"
   },
   "ui": {
     "*": {
       "acceleratorForeground": "purp",
       "acceleratorSelectionForeground": "purp",
-      "arc": 13,
+      "arc": 12,
       "background": "bg",
       "foreground": "fgDark",
       "caretForeground": "fgDark",
