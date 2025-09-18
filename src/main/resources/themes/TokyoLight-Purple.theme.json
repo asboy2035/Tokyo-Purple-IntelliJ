@@ -42,7 +42,7 @@
     "*": {
       "acceleratorForeground": "purp",
       "acceleratorSelectionForeground": "purp",
-      "arc": 14,
+      "arc": 12,
       "background": "#F0E8FF",
       "foreground": "#5A4B6B",
       "caretForeground": "fgDark",

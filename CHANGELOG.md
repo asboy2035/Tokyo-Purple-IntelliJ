@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.3.0
+### New!
+- Updated styling for IDE UI
+- Gradient borders for buttons 
+
+### Updated
+- Support IntelliJ Platform 2025.3
+- Improve corner rounding
+- Update purple tint
+- Improve readability between foreground/background
+- Provide better support for more languages
+
 ## 0.2.0
 ### Updated
 - JavaScript Keyword coloring

@@ -4,22 +4,23 @@
   "author": "ash Ketchup <ash@asboy2035.com>",
   "editorScheme": "/themes/TokyoDark-Purple.xml",
   "colors": {
-    "bgHi": "#191321",
-    "bg": "#15121c",
-    "terminalBlack": "#15121c",
+    "bgHi": "#190e31",
+    "bg": "#0f0325",
+    "terminalBlack": "#0f0325",
     "fg": "#d2c0f5",
+    "fgSelection": "#7f5cff",
     "fgDark": "#a9b1d6",
     "fgGutter": "#3b4261",
-    "dark3": "#545c7e",
+    "dark3": "#2f2646",
     "comment": "#565f89",
     "dark5": "#737aa2",
-    "purp0": "#a88ce0",
-    "purp": "#c4b0fa",
+    "purp0": "#978ce0",
+    "purp": "#a989ff",
     "cyan": "#7dcfff",
     "purp1": "#572ade",
     "purp2": "#500dd7",
-    "purp5": "#b489ff",
-    "purp6": "#c8b4f9",
+    "purp5": "#9888ff",
+    "purp6": "#c5b4f9",
     "purp7": "#453970",
     "magenta": "#bb9af7",
     "magenta2": "#ff007c",
@@ -32,23 +33,24 @@
     "teal": "#1abc9c",
     "red": "#ff4879",
     "red1": "#e71363",
-    "hoverBackground": "#232433",
-    "selectionInactiveBackground": "#4b4168",
+    "hoverBackground": "#220f44",
+    "gradientBottom": "#44359c",
+    "selectionInactiveBackground": "#281c4f",
     "separatorColor": "#36374F",
-    "selectionBackground": "#502e7c",
+    "selectionBackground": "#2a1d5b",
     "shadowColor": "#161823"
   },
   "ui": {
     "*": {
       "acceleratorForeground": "purp",
       "acceleratorSelectionForeground": "purp",
-      "arc": 14,
+      "arc": 13,
       "background": "bg",
       "foreground": "fgDark",
       "caretForeground": "fgDark",
       "infoForeground": "fgDark",
-      "selectionForeground": "fg",
-      "selectionInactiveForeground": "fg",
+      "selectionForeground": "fgSelection",
+      "selectionInactiveForeground": "fgSelection",
       "selectionBackground": "#4c3085",
       "selectionInactiveBackground": "selectionInactiveBackground",
       "inactiveBackground": "bgHi",
@@ -81,18 +83,18 @@
     "Button": {
       "foreground": "fg",
       "startBorderColor": "hoverBackground",
-      "endBorderColor": "hoverBackground",
+      "endBorderColor": "gradientBottom",
       "shadowColor": "shadowColor",
       "startBackground": "hoverBackground",
       "endBackground": "hoverBackground",
-      "focusedBorderColor": "purp0",
+      "focusedBorderColor": "purp1",
       "disabledBorderColor": "bgHi",
       "default": {
-        "foreground": "bg",
-        "startBackground": "purp",
-        "endBackground": "purp",
-        "startBorderColor": "purp0",
-        "endBorderColor": "purp0",
+        "foreground": "fg",
+        "startBackground": "purp2",
+        "endBackground": "purp1",
+        "startBorderColor": "purp1",
+        "endBorderColor": "gradientBottom",
         "focusColor": "fg",
         "focusedBorderColor": "fg"
       }
@@ -174,12 +176,13 @@
       "pressedForeground": "magenta"
     },
     "List": {
-      "rowHeight": 24,
+      "rowHeight": 28,
       "Button": {
         "separatorInset": 4,
         "leftRightInset": 8
       },
-      "selectionBackground": "selectionBackground"
+      "selectionBackground": "selectionBackground",
+      "selectionForeground": "purp"
     },
     "MainToolbar": {
       "Icon": {
@@ -225,9 +228,9 @@
         "installFillForeground": "bgHi",
         "installFillBackground": "magenta",
         "installFocusedBackground": "bgHi",
-        "updateBorderColor": "purp",
+        "updateBorderColor": "purp1",
         "updateForeground": "fg",
-        "updateBackground": "purp"
+        "updateBackground": "purp2"
       },
       "Tab": {
         "selectedBackground": "hoverBackground",
