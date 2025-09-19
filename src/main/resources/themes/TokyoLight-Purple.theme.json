@@ -7,7 +7,7 @@
   "colors": {
     "bgHi": "#b7a3f3",
     "bg": "#c5b7f6",
-    "bgLowest": "#c1a8ff",
+    "bgLowest": "#ae8eff",
     "terminalBlack": "#c5b7f6",
     "fg": "#15003f",
     "fgSelection": "#9b69ff",
@@ -212,6 +212,7 @@
       "errorBorderColor": "red1",
       "errorBackground": "bgHi",
       "errorForeground": "fg",
+      "arc": 36,
       "ToolWindow": {
         "warningForeground": "fg",
         "warningBackground": "bgHi",
