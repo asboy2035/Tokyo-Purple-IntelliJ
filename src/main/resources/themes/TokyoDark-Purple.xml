@@ -12,13 +12,13 @@
     <option name="DIAGRAM_INNER_EDGE" value="99aaff"/>
     <option name="DIAGRAM_NODE_BACKGROUND" value="2a2436"/>
     <option name="DIAGRAM_NODE_HEADER" value="2a2436"/>
-    <option name="DIAGRAM_NOTE_BACKGROUND" value="4a3d5b"/>
-    <option name="DIAGRAM_NOTE_BORDER" value="4a3d5b"/>
+    <option name="DIAGRAM_NOTE_BACKGROUND" value="423189"/>
+    <option name="DIAGRAM_NOTE_BORDER" value="423189"/>
     <option name="DIAGRAM_REALIZATION_EDGE" value="82e0aa"/>
     <option name="DIFF_SEPARATORS_BACKGROUND" value="2a2436"/>
     <option name="DOCUMENTATION_COLOR" value="1f1a26"/>
     <option name="DOCUMENTATION_POPUP_COLOR" value="1f1a26"/>
-    <option name="ERROR_HINT" value="4a3d5b"/>
+    <option name="ERROR_HINT" value="423189"/>
     <option name="FILESTATUS_ADDED" value="82e0aa"/>
     <option name="FILESTATUS_DELETED" value="ff7b8b"/>
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="7e729b"/>
@@ -42,19 +42,19 @@
     <option name="HTML_TAG_TREE_LEVEL4" value=""/>
     <option name="HTML_TAG_TREE_LEVEL5" value=""/>
     <option name="INDENT_GUIDE" value="2a2436"/>
-    <option name="INFORMATION_HINT" value="4a3d5b"/>
+    <option name="INFORMATION_HINT" value="423189"/>
     <option name="LINE_NUMBERS_COLOR" value="7e729b"/>
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="ffc0cb"/>
     <option name="LOOKUP_COLOR" value="251f30"/>
     <option name="METHOD_SEPARATORS_COLOR" value="cbc6fd"/>
     <option name="MODIFIED_LINES_COLOR" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
     <option name="NOTIFICATION_BACKGROUND" value="2a2436"/>
-    <option name="QUESTION_HINT" value="4a3d5b"/>
+    <option name="QUESTION_HINT" value="423189"/>
     <option name="RECURSIVE_CALL_ATTRIBUTES" value=""/>
     <option name="RIGHT_MARGIN_COLOR" value="2a2436"/>
     <option name="SELECTED_INDENT_GUIDE" value="6a5d80"/>
-    <option name="SELECTED_TEARLINE_COLOR" value="4a3d5b"/>
-    <option name="SELECTION_BACKGROUND" value="4a3d5b"/>
+    <option name="SELECTED_TEARLINE_COLOR" value="423189"/>
+    <option name="SELECTION_BACKGROUND" value="423189"/>
     <option name="SEPARATOR_ABOVE_COLOR" value="2a2436"/>
     <option name="SEPARATOR_BELOW_COLOR" value="2a2436"/>
     <option name="SOFT_WRAP_SIGN_COLOR" value="2a2436"/>
@@ -823,7 +823,7 @@
     </option>
     <option name="LIVE_TEMPLATE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="4a3d5b"/>
+        <option name="BACKGROUND" value="423189"/>
       </value>
     </option>
     <option name="LIVE_TEMPLATE_INACTIVE_SEGMENT">
@@ -989,7 +989,7 @@
       <value>
         <option name="FOREGROUND" value="ffffff"/>
         <option name="FONT_TYPE" value="1"/>
-        <option name="EFFECT_COLOR" value="4a3d5b"/>
+        <option name="EFFECT_COLOR" value="423189"/>
       </value>
     </option>
     <option name="NOT_TOP_FRAME_ATTRIBUTES">

@@ -7,6 +7,7 @@
   "colors": {
     "bgHi": "#190e31",
     "bg": "#0f0325",
+    "bgLowest": "#1c073a",
     "terminalBlack": "#0f0325",
     "fg": "#d2c0f5",
     "fgSelection": "#7f5cff",
@@ -46,14 +47,6 @@
       "acceleratorForeground": "purp",
       "acceleratorSelectionForeground": "purp",
       "arc": 12,
-
-      "Islands": 1,
-      "Island": {
-        "arc": 20,
-        "border1.insets": "6,6,6,6",
-        "inactiveAlpha": 0.44
-      },
-
       "background": "bg",
       "foreground": "fgDark",
       "caretForeground": "fgDark",
@@ -69,6 +62,16 @@
       "borderColor": "bgHi",
       "separatorColor": "separatorColor"
     },
+
+    "Islands": 1,
+    "Island": {
+      "arc": 26,
+      "border1.insets": "8,8,8,8",
+      "inactiveAlpha": 0.44
+    },
+
+    "MainWindow.background": "bgLowest",
+
     "MemoryIndicator": {
       "usedBackground": "#455591",
       "allocatedBackground": "#59689d"
@@ -163,7 +166,8 @@
       "underlineHeight.compact": 1,
       "underlinedTabBackground": "hoverBackground",
       "inactiveUnderlinedTabBackground": "selectionBackground",
-      "hoverBackground": "selectionInactiveBackground"
+      "hoverBackground": "selectionInactiveBackground",
+      "underlinedBorderColor": "purp2"
     },
     "Editor": {
       "background": "bgHi",
@@ -307,7 +311,7 @@
       "minimumSize": "72,28"
     },
     "StatusBar": {
-      "borderColor": "bg"
+      "borderColor": "bgLowest"
     },
     "TabbedPane": {
       "tabHeight": 40,

@@ -2,10 +2,12 @@
   "name": "TokyoLight Purple",
   "dark": false,
   "author": "ash Ketchup <ash@asboy2035.com>",
+  "parentTheme": "Islands Light",
   "editorScheme": "/themes/TokyoLight-Purple.xml",
   "colors": {
     "bgHi": "#b7a3f3",
     "bg": "#c5b7f6",
+    "bgLowest": "#c1a8ff",
     "terminalBlack": "#c5b7f6",
     "fg": "#15003f",
     "fgSelection": "#9b69ff",
@@ -60,6 +62,16 @@
       "borderColor": "bgHi",
       "separatorColor": "separatorColor"
     },
+
+    "Islands": 1,
+    "Island": {
+      "arc": 26,
+      "border1.insets": "8,8,8,8",
+      "inactiveAlpha": 0.44
+    },
+
+    "MainWindow.background": "bgLowest",
+
     "MemoryIndicator": {
       "usedBackground": "#B0C0E0",
       "allocatedBackground": "#C0D0EF"
@@ -152,7 +164,10 @@
     },
     "EditorTabs": {
       "underlineHeight.compact": 1,
-      "underlinedTabBackground": "hoverBackground"
+      "underlinedTabBackground": "hoverBackground",
+      "inactiveUnderlinedTabBackground": "selectionBackground",
+      "hoverBackground": "selectionInactiveBackground",
+      "underlinedBorderColor": "purp2"
     },
     "Editor": {
       "background": "bgHi",
@@ -296,7 +311,7 @@
       "minimumSize": "72,28"
     },
     "StatusBar": {
-      "borderColor": "bg"
+      "borderColor": "bgLowest"
     },
     "TabbedPane": {
       "tabHeight": 40,
