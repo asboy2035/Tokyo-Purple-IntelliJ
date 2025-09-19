@@ -2,7 +2,7 @@
   "name": "TokyoLight Purple",
   "dark": false,
   "author": "ash Ketchup <ash@asboy2035.com>",
-  "parentTheme": "Islands Light",
+  "parentTheme": "Default Light",
   "editorScheme": "/themes/TokyoLight-Purple.xml",
   "colors": {
     "bgHi": "#b7a3f3",
@@ -10,7 +10,7 @@
     "bgLowest": "#ae8eff",
     "terminalBlack": "#c5b7f6",
     "fg": "#15003f",
-    "fgSelection": "#9b69ff",
+    "fgSelection": "#2a0076",
     "fgDark": "#0b0021",
     "fgGutter": "#B5A7C2",
     "dark3": "#D8CDE0",
@@ -62,15 +62,6 @@
       "borderColor": "bgHi",
       "separatorColor": "separatorColor"
     },
-
-    "Islands": 1,
-    "Island": {
-      "arc": 26,
-      "border1.insets": "8,8,8,8",
-      "inactiveAlpha": 0.44
-    },
-
-    "MainWindow.background": "bgLowest",
 
     "MemoryIndicator": {
       "usedBackground": "#B0C0E0",
@@ -165,9 +156,7 @@
     "EditorTabs": {
       "underlineHeight.compact": 1,
       "underlinedTabBackground": "hoverBackground",
-      "inactiveUnderlinedTabBackground": "selectionBackground",
-      "hoverBackground": "selectionInactiveBackground",
-      "underlinedBorderColor": "purp2"
+      "hoverBackground": "selectionInactiveBackground"
     },
     "Editor": {
       "background": "bgHi",

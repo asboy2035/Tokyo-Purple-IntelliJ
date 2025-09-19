@@ -1,8 +1,8 @@
 {
-  "name": "TokyoDark Purple",
+  "name": "(IntelliJ 2025.3+) SadoDark Purple",
   "dark": true,
   "author": "ash Ketchup <ash@asboy2035.com>",
-  "parentTheme": "Default Dark",
+  "parentTheme": "Islands Dark",
   "editorScheme": "/themes/TokyoDark-Purple.xml",
   "colors": {
     "bgHi": "#190e31",
@@ -62,6 +62,15 @@
       "borderColor": "bgHi",
       "separatorColor": "separatorColor"
     },
+
+    "Islands": 1,
+    "Island": {
+      "arc": 26,
+      "border1.insets": "8,8,8,8",
+      "inactiveAlpha": 0.44
+    },
+
+    "MainWindow.background": "bgLowest",
 
     "MemoryIndicator": {
       "usedBackground": "#455591",
@@ -156,7 +165,9 @@
     "EditorTabs": {
       "underlineHeight.compact": 1,
       "underlinedTabBackground": "hoverBackground",
-      "hoverBackground": "selectionInactiveBackground"
+      "inactiveUnderlinedTabBackground": "selectionBackground",
+      "hoverBackground": "selectionInactiveBackground",
+      "underlinedBorderColor": "purp2"
     },
     "Editor": {
       "background": "bgHi",

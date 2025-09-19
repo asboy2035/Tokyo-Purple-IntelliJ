@@ -1,9 +1,10 @@
 # Changelog
 
-## 0.3.0
+## 1.0.0
 ### New!
 - Updated styling for IDE UI
 - Gradient borders for buttons 
+- (IntelliJ 2025.3+) Support the brand-new Islands theme!
 
 ### Updated
 - Support IntelliJ Platform 2025.3

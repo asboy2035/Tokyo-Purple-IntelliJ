@@ -3,12 +3,15 @@
   <id>com.asboy2035.tokyo-purple</id>
   <name>Tokyo Purple</name>
   <vendor email="ash@asboy2035.com" url="https://github.com/asboy2035/IntelliJ-Themes">asboy2035</vendor>
-  <version>0.3.0</version>
+  <version>1.0.0</version>
   <idea-version since-build="213" until-build="253.*"/>
   <depends>com.intellij.modules.platform</depends>
 
   <extensions defaultExtensionNs="com.intellij">
     <themeProvider id="com.asboy2035.tokyodark-purple" path="/themes/TokyoDark-Purple.theme.json"/>
     <themeProvider id="com.asboy2035.tokyolight-purple" path="/themes/TokyoLight-Purple.theme.json"/>
+
+    <themeProvider id="com.asboy2035.sadodark-purple" path="/themes/SadoDark-Purple.theme.json"/>
+    <themeProvider id="com.asboy2035.sadolight-purple" path="/themes/SadoLight-Purple.theme.json"/>
   </extensions>
 </idea-plugin>
