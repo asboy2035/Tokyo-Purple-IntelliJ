@@ -2,6 +2,7 @@
   "name": "TokyoDark Purple",
   "dark": true,
   "author": "ash Ketchup <ash@asboy2035.com>",
+  "parentTheme": "Islands Dark",
   "editorScheme": "/themes/TokyoDark-Purple.xml",
   "colors": {
     "bgHi": "#190e31",
@@ -45,6 +46,14 @@
       "acceleratorForeground": "purp",
       "acceleratorSelectionForeground": "purp",
       "arc": 12,
+
+      "Islands": 1,
+      "Island": {
+        "arc": 20,
+        "border1.insets": "6,6,6,6",
+        "inactiveAlpha": 0.44
+      },
+
       "background": "bg",
       "foreground": "fgDark",
       "caretForeground": "fgDark",
@@ -152,7 +161,9 @@
     },
     "EditorTabs": {
       "underlineHeight.compact": 1,
-      "underlinedTabBackground": "hoverBackground"
+      "underlinedTabBackground": "hoverBackground",
+      "inactiveUnderlinedTabBackground": "selectionBackground",
+      "hoverBackground": "selectionInactiveBackground"
     },
     "Editor": {
       "background": "bgHi",
