@@ -6,8 +6,7 @@
     <option name="CARET_ROW_COLOR" value="#190e31"/>
     <option name="CONSOLE_BACKGROUND_KEY" value="#0f0325"/>
     <option name="DELETED_LINES_COLOR" value="ff7b8b"/>
-    <option name="DIAGRAM_ANNOTATION_EDGE" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-    <option name="DIAGRAM_DEFAULT_EDGE" value="c0caf5"/>
+    <option name="DIAGRAM_ANNOTATION_EDGE" value="A997F6"/> <option name="DIAGRAM_DEFAULT_EDGE" value="c0caf5"/>
     <option name="DIAGRAM_GENERALIZATION_EDGE" value="99aaff"/>
     <option name="DIAGRAM_INNER_EDGE" value="99aaff"/>
     <option name="DIAGRAM_NODE_BACKGROUND" value="2a2436"/>
@@ -23,18 +22,12 @@
     <option name="FILESTATUS_DELETED" value="ff7b8b"/>
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="7e729b"/>
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="7e729b"/>
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-    <option name="FILESTATUS_MERGED" value="82e0aa"/>
-    <option name="FILESTATUS_MODIFIED" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="99aaff"/>
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="A997F6"/> <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="A997F6"/> <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="A997F6"/> <option name="FILESTATUS_MERGED" value="82e0aa"/>
+    <option name="FILESTATUS_MODIFIED" value="A997F6"/> <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="99aaff"/>
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="99aaff"/>
     <option name="FILESTATUS_UNKNOWN" value="ff7b8b"/>
     <option name="FILESTATUS_addedOutside" value="82e0aa"/>
-    <option name="FILESTATUS_changelistConflict" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-    <option name="FILESTATUS_modifiedOutside" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-    <option name="GUTTER_BACKGROUND" value="#0f0325"/>
+    <option name="FILESTATUS_changelistConflict" value="A997F6"/> <option name="FILESTATUS_modifiedOutside" value="A997F6"/> <option name="GUTTER_BACKGROUND" value="#0f0325"/>
     <option name="HTML_TAG_TREE_LEVEL0" value=""/>
     <option name="HTML_TAG_TREE_LEVEL1" value=""/>
     <option name="HTML_TAG_TREE_LEVEL2" value=""/>
@@ -47,8 +40,7 @@
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="ffc0cb"/>
     <option name="LOOKUP_COLOR" value="251f30"/>
     <option name="METHOD_SEPARATORS_COLOR" value="cbc6fd"/>
-    <option name="MODIFIED_LINES_COLOR" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-    <option name="NOTIFICATION_BACKGROUND" value="2a2436"/>
+    <option name="MODIFIED_LINES_COLOR" value="A997F6"/> <option name="NOTIFICATION_BACKGROUND" value="2a2436"/>
     <option name="QUESTION_HINT" value="423189"/>
     <option name="RECURSIVE_CALL_ATTRIBUTES" value=""/>
     <option name="RIGHT_MARGIN_COLOR" value="2a2436"/>
@@ -66,8 +58,7 @@
     <option name="VCS_ANNOTATIONS_COLOR_5" value="1f1a26"/>
     <option name="VISUAL_INDENT_GUIDE" value="2a2436"/>
     <option name="WHITESPACES" value="2a2436"/>
-    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-  </colors>
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="A997F6"/> </colors>
   <attributes>
     <option name="ANNOTATION_NAME_ATTRIBUTES">
       <value>
@@ -188,18 +179,15 @@
     </option>
     <option name="CONSOLE_YELLOW_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-      </value>
+        <option name="FOREGROUND" value="A997F6"/> </value>
     </option>
     <option name="CSS.ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="81D2CE"/> <!-- Changed to green -->
-      </value>
+        <option name="FOREGROUND" value="81D2CE"/> </value>
     </option>
     <option name="CSS.CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="A997F6"/> <!-- Changed from caff8a to purple (selectors) -->
-      </value>
+        <option name="FOREGROUND" value="A997F6"/> </value>
     </option>
     <option name="CSS.COLOR">
       <value>
@@ -213,8 +201,7 @@
     </option>
     <option name="CSS.HASH">
       <value>
-        <option name="FOREGROUND" value="A997F6"/> <!-- Changed from ff7b8b to purple (selectors) -->
-      </value>
+        <option name="FOREGROUND" value="A997F6"/> </value>
     </option>
     <option name="CSS.IDENT">
       <value>
@@ -223,23 +210,19 @@
     </option>
     <option name="CSS.PROPERTY_NAME">
       <value>
-        <option name="FOREGROUND" value="A997F6"/> <!-- Changed from 99aaff to purple (selectors) -->
-      </value>
+        <option name="FOREGROUND" value="A997F6"/> </value>
     </option>
     <option name="CSS.PROPERTY_VALUE">
       <value>
-        <option name="FOREGROUND" value="E394DC"/> <!-- Changed from ffc0cb to pink (word attributes) -->
-      </value>
+        <option name="FOREGROUND" value="E394DC"/> </value>
     </option>
     <option name="CSS.PSEUDO">
       <value>
-        <option name="FOREGROUND" value="A997F6"/> <!-- Changed from cbc6fd to purple (selectors) -->
-      </value>
+        <option name="FOREGROUND" value="A997F6"/> </value>
     </option>
     <option name="CSS.TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="A997F6"/> <!-- Changed from ff85d8 to purple (selectors) -->
-      </value>
+        <option name="FOREGROUND" value="A997F6"/> </value>
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
@@ -318,8 +301,7 @@
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="7de0ee"/>
-      </value>
+        <option name="FOREGROUND" value="7de0ee"/> <option name="FONT_TYPE" value="2" /> </value>
     </option>
     <option name="DEFAULT_COMMA">
       <value>
@@ -395,11 +377,9 @@
         <option name="EFFECT_TYPE" value="2"/>
       </value>
     </option>
-    <option name="JS.KEYWORD">
+    <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="A997F6"/>
-        <option name="FONT_TYPE" value="2"/>
-      </value>
+        <option name="FOREGROUND" value="A997F6"/> <option name="FONT_TYPE" value="2"/> </value>
     </option>
     <option name="DEFAULT_LABEL">
       <value>
@@ -418,8 +398,7 @@
     </option>
     <option name="LINE_PARTIAL_COVERAGE">
       <value>
-        <option name="FOREGROUND" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-      </value>
+        <option name="FOREGROUND" value="A997F6"/> </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
@@ -438,8 +417,7 @@
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="EBC88C"/> <!-- Changed to yellow -->
-      </value>
+        <option name="FOREGROUND" value="EBC88C"/> </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
@@ -479,8 +457,7 @@
     </option>
     <option name="DEFAULT_TAG">
       <value>
-        <option name="FOREGROUND" value="87C3FF"/> <!-- Changed to blue -->
-      </value>
+        <option name="FOREGROUND" value="87C3FF"/> </value>
     </option>
     <option baseAttributes="TEXT" name="DEFAULT_TEMPLATE_LANGUAGE_COLOR"/>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
@@ -532,8 +509,7 @@
     </option>
     <option name="DOC_COMMENT_TAG_VALUE">
       <value>
-        <option name="FOREGROUND" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-        <option name="FONT_TYPE" value="2"/>
+        <option name="FOREGROUND" value="A997F6"/> <option name="FONT_TYPE" value="2"/>
       </value>
     </option>
     <option name="DUPLICATE_FROM_SERVER">
@@ -572,9 +548,7 @@
     </option>
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
-        <option name="EFFECT_COLOR" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-        <option name="ERROR_STRIPE_COLOR" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-        <option name="EFFECT_TYPE" value="2"/>
+        <option name="EFFECT_COLOR" value="A997F6"/> <option name="ERROR_STRIPE_COLOR" value="A997F6"/> <option name="EFFECT_TYPE" value="2"/>
       </value>
     </option>
     <option baseAttributes="DEFAULT_CONSTANT" name="GO_BUILTIN_CONSTANT"/>
@@ -610,33 +584,27 @@
     </option>
     <option name="CUSTOM_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="87C3FF" /> <!-- Custom tags are blue -->
-      </value>
+        <option name="FOREGROUND" value="87C3FF" /> </value>
     </option>
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="ee9af1"/> <!-- Tags are pink -->
-      </value>
+        <option name="FOREGROUND" value="ee9af1"/> </value>
     </option>
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="A997F6"/> <!-- HTML attribute names are purple -->
-      </value>
+        <option name="FOREGROUND" value="A997F6"/> </value>
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="E394DC"/> <!-- HTML attribute values are pink -->
-      </value>
+        <option name="FOREGROUND" value="E394DC"/> </value>
     </option>
     <option name="HTML_TAG">
       <value>
-        <option name="FOREGROUND" value="4D445C"/> <!-- Tags <> are dark grey -->
-      </value>
+        <option name="FOREGROUND" value="4D445C"/> </value>
     </option>
     <option name="HTML_CODE">
       <value>
-        <option name="FOREGROUND" value="FFFFFF"/> <!-- String content within tags is white -->
-      </value>
+        <option name="FOREGROUND" value="FFFFFF"/> </value>
     </option>
     <option name="HTTP_REQUEST_INPUT_FILE">
       <value>
@@ -858,8 +826,7 @@
     </option>
     <option name="LOG_WARNING_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-      </value>
+        <option name="FOREGROUND" value="A997F6"/> </value>
     </option>
     <option name="MAKEFILE_PREREQUISITE">
       <value>
@@ -917,8 +884,7 @@
     </option>
     <option name="MARKDOWN_HEADER_LEVEL_4">
       <value>
-        <option name="FOREGROUND" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-      </value>
+        <option name="FOREGROUND" value="A997F6"/> </value>
     </option>
     <option name="MARKDOWN_HEADER_LEVEL_5">
       <value>
@@ -1004,8 +970,7 @@
     </option>
     <option name="PARAMETER_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-      </value>
+        <option name="FOREGROUND" value="A997F6"/> </value>
     </option>
     <option name="PHP.ECHO">
       <value>
@@ -1054,8 +1019,7 @@
     </option>
     <option name="PHP_CLASS">
       <value>
-        <option name="FOREGROUND" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-      </value>
+        <option name="FOREGROUND" value="A997F6"/> </value>
     </option>
     <option name="PHP_CONCATENATION">
       <value>
@@ -1064,8 +1028,7 @@
     </option>
     <option name="PHP_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-      </value>
+        <option name="FOREGROUND" value="A997F6"/> </value>
     </option>
     <option name="PHP_IDENTIFIER">
       <value>
@@ -1170,19 +1133,16 @@
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="382c57"/>
-        <option name="EFFECT_COLOR" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-        <option name="ERROR_STRIPE_COLOR" value="382c57"/>
+        <option name="EFFECT_COLOR" value="A997F6"/> <option name="ERROR_STRIPE_COLOR" value="382c57"/>
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-      </value>
+        <option name="FOREGROUND" value="A997F6"/> </value>
     </option>
     <option name="TS.MODULE_NAME">
       <value>
-        <option name="FOREGROUND" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-      </value>
+        <option name="FOREGROUND" value="A997F6"/> </value>
     </option>
     <option name="TS.PRIMITIVE.TYPES">
       <value>
@@ -1212,8 +1172,7 @@
     </option>
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-      </value>
+        <option name="FOREGROUND" value="A997F6"/> </value>
     </option>
     <option name="TYPO">
       <value>
@@ -1231,9 +1190,7 @@
     <option baseAttributes="JSP_SCRIPTING_BACKGROUND" name="VELOCITY_SCRIPTING_BACKGROUND"/>
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-        <option name="ERROR_STRIPE_COLOR" value="A997F6"/> <!-- Changed from ffd700 (yellow) to purple -->
-        <option name="EFFECT_TYPE" value="2"/>
+        <option name="EFFECT_COLOR" value="A997F6"/> <option name="ERROR_STRIPE_COLOR" value="A997F6"/> <option name="EFFECT_TYPE" value="2"/>
       </value>
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
@@ -1255,23 +1212,19 @@
     </option>
     <option baseAttributes="DEFAULT_ATTRIBUTE" name="XML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="A997F6"/> <!-- XML attribute names are purple -->
-      </value>
+        <option name="FOREGROUND" value="A997F6"/> </value>
     </option>
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="ee9af1"/> <!-- XML tags are pink -->
-      </value>
+        <option name="FOREGROUND" value="ee9af1"/> </value>
     </option>
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="4D445C"/> <!-- XML tags <> are dark grey -->
-      </value>
+        <option name="FOREGROUND" value="4D445C"/> </value>
     </option>
     <option name="XML_WHITE_SPACE_IN_TAG">
       <value>
-        <option name="FOREGROUND" value="FFFFFF"/> <!-- XML string content within tags is white -->
-      </value>
+        <option name="FOREGROUND" value="FFFFFF"/> </value>
     </option>
     <option baseAttributes="DEFAULT_FUNCTION_CALL" name="XPATH.FUNCTION"/>
     <option baseAttributes="DEFAULT_KEYWORD" name="XPATH.KEYWORD"/>
