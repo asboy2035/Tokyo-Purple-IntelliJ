@@ -4,7 +4,7 @@
   <name>Tokyo Purple</name>
   <vendor email="ash@asboy2035.com" url="https://github.com/asboy2035/IntelliJ-Themes">asboy2035</vendor>
   <version>1.0.0</version>
-  <idea-version since-build="213" until-build="253.*"/>
+  <idea-version since-build="252" until-build="253.*"/>
   <depends>com.intellij.modules.platform</depends>
 
   <extensions defaultExtensionNs="com.intellij">
