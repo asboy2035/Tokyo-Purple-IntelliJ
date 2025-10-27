@@ -418,6 +418,7 @@
         "background": "bg",
         "selectionBackground": "hoverBackground",
         "selectionInactiveBackground": "hoverBackground",
+        "hoverBackground": "hoverBackground",
         "actions": {
           "background": "hoverBackground"
         }
