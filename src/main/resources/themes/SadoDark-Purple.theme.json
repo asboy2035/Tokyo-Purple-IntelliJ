@@ -356,7 +356,8 @@
     },
     "ToolWindow": {
       "Button": {
-        "hoverBackground": "hoverBackground"
+        "hoverBackground": "hoverBackground",
+        "selectedBackground": "purp2"
       },
       "Header": {
         "background": "bg",
