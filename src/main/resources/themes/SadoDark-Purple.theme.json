@@ -54,6 +54,7 @@
       "selectionForeground": "fgSelection",
       "selectionInactiveForeground": "fgSelection",
       "selectionBackground": "selectionBackground",
+      "lightSelectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
       "inactiveBackground": "bgHi",
       "disabledBackground": "bgHi",
