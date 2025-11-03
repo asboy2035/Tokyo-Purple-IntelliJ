@@ -59,6 +59,7 @@
       "disabledBackground": "bgHi",
       "disabledBorderColor": "bgHi",
       "disabledForeground": "dark5",
+      "borderColor": "bgHi",
       "separatorColor": "separatorColor"
     },
 
