@@ -2,17 +2,17 @@
   "name": "TokyoDark Purple",
   "dark": true,
   "author": "ash Ketchup <ash@asboy2035.com>",
-  "parentTheme": "Default Dark",
+  "parentTheme": "Islands Dark",
   "editorScheme": "/themes/TokyoDark-Purple.xml",
   "colors": {
-    "bgHi": "#190e31",
-    "bg": "#0f0325",
-    "bgLowest": "#2f1e4f",
+    "backgroundHi": "#190e31",
+    "background": "#0f0325",
+    "backgroundLowest": "#2f1e4f",
     "terminalBlack": "#0f0325",
-    "fg": "#d2c0f5",
-    "fgSelection": "#7f5cff",
-    "fgDark": "#a9b1d6",
-    "fgGutter": "#3b4261",
+    "foreground": "#d2c0f5",
+    "foregroundSelection": "#7f5cff",
+    "foregroundDark": "#a9b1d6",
+    "foregroundGutter": "#3b4261",
     "dark3": "#2f2646",
     "comment": "#565f89",
     "dark5": "#737aa2",
@@ -47,29 +47,37 @@
       "acceleratorForeground": "purp",
       "acceleratorSelectionForeground": "purp",
       "arc": 12,
-      "background": "bg",
-      "foreground": "fgDark",
-      "caretForeground": "fgDark",
-      "infoForeground": "fgDark",
-      "selectionForeground": "fgSelection",
-      "selectionInactiveForeground": "fgSelection",
+      "background": "background",
+      "foreground": "foregroundDark",
+      "caretForeground": "foregroundDark",
+      "infoForeground": "foregroundDark",
+      "selectionForeground": "foregroundSelection",
+      "selectionInactiveForeground": "foregroundSelection",
       "selectionBackground": "selectionBackground",
       "lightSelectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
-      "inactiveBackground": "bgHi",
-      "disabledBackground": "bgHi",
-      "disabledBorderColor": "bgHi",
+      "inactiveBackground": "backgroundHi",
+      "disabledBackground": "backgroundHi",
+      "disabledBorderColor": "backgroundHi",
       "disabledForeground": "dark5",
-      "borderColor": "bgHi",
       "separatorColor": "separatorColor"
     },
+
+    "Islands": 1,
+    "Island": {
+      "arc": 26,
+      "border1.insets": "8,8,8,8",
+      "inactiveAlpha": 0.44
+    },
+
+    "MainWindow.background": "backgroundLowest",
 
     "MemoryIndicator": {
       "usedBackground": "#455591",
       "allocatedBackground": "#59689d"
     },
     "Borders": {
-      "color": "bgHi",
+      "color": "backgroundHi",
       "ContrastBorderColor": "hoverBackground"
     },
     "ActionButton": {
@@ -81,26 +89,26 @@
     "Bookmark": {
       "iconBackground": "purp",
       "Mnemonic": {
-        "iconForeground": "fg"
+        "iconForeground": "foreground"
       }
     },
     "Button": {
-      "foreground": "fg",
+      "foreground": "foreground",
       "startBorderColor": "hoverBackground",
       "endBorderColor": "gradientBottom",
       "shadowColor": "shadowColor",
       "startBackground": "hoverBackground",
       "endBackground": "hoverBackground",
       "focusedBorderColor": "purp1",
-      "disabledBorderColor": "bgHi",
+      "disabledBorderColor": "backgroundHi",
       "default": {
-        "foreground": "fg",
+        "foreground": "foreground",
         "startBackground": "purp2",
         "endBackground": "purp1",
         "startBorderColor": "purp1",
         "endBorderColor": "gradientBottom",
-        "focusColor": "fg",
-        "focusedBorderColor": "fg"
+        "focusColor": "foreground",
+        "focusedBorderColor": "foreground"
       }
     },
     "CheckBox": {
@@ -108,7 +116,7 @@
       "textIconGap": 4
     },
     "Counter": {
-      "foreground": "bgHi",
+      "foreground": "backgroundHi",
       "background": "purp0"
     },
     "ComboBox": {
@@ -124,10 +132,10 @@
     "ComboPopup.border": "1,1,1,1",
     "CompletionPopup": {
       "Advertiser": {
-        "background": "bg",
+        "background": "background",
         "borderInsets.compact": "2,12,2,8"
       },
-      "foreground": "fg",
+      "foreground": "foreground",
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionBackground",
       "matchForeground": "orange",
@@ -136,7 +144,7 @@
     "Component": {
       "arrowAreaWidth": "28",
       "focusColor": "hoverBackground",
-      "borderColor": "bgHi",
+      "borderColor": "backgroundHi",
       "focusedBorderColor": "purp0",
       "disabledBorderColor": "purp0",
       "errorFocusColor": "red1",
@@ -148,7 +156,7 @@
       "borderColor": "purp0"
     },
     "DefaultTabs": {
-      "background": "bg",
+      "background": "background",
       "borderColor": "hoverBackground",
       "hoverBackground": "hoverBackground",
       "inactiveUnderlineColor": "comment",
@@ -157,10 +165,12 @@
     "EditorTabs": {
       "underlineHeight.compact": 1,
       "underlinedTabBackground": "hoverBackground",
-      "hoverBackground": "selectionInactiveBackground"
+      "inactiveUnderlinedTabBackground": "selectionBackground",
+      "hoverBackground": "selectionInactiveBackground",
+      "underlinedBorderColor": "purp2"
     },
     "Editor": {
-      "background": "bgHi",
+      "background": "backgroundHi",
       "shortcutForeground": "purp"
     },
     "FileColor": {
@@ -200,18 +210,18 @@
     "Notification": {
       "background": "hoverBackground",
       "errorBorderColor": "red1",
-      "errorBackground": "bgHi",
-      "errorForeground": "fg",
+      "errorBackground": "backgroundHi",
+      "errorForeground": "foreground",
       "arc": 36,
       "ToolWindow": {
-        "warningForeground": "fg",
-        "warningBackground": "bgHi",
+        "warningForeground": "foreground",
+        "warningBackground": "backgroundHi",
         "warningBorderColor": "orange",
-        "errorForeground": "fg",
+        "errorForeground": "foreground",
         "errorBorderColor": "red1",
-        "errorBackground": "bgHi",
-        "informativeForeground": "fg",
-        "informativeBackground": "bgHi",
+        "errorBackground": "backgroundHi",
+        "informativeForeground": "foreground",
+        "informativeBackground": "backgroundHi",
         "informativeBorderColor": "magenta"
       }
     },
@@ -223,24 +233,24 @@
         "background": "hoverBackground"
       },
       "SectionHeader": {
-        "foreground": "fg"
+        "foreground": "foreground"
       },
       "hoverBackground": "hoverBackground",
       "lightSelectionBackground": "hoverBackground",
       "Button": {
         "installBorderColor": "magenta",
         "installForeground": "magenta",
-        "installBackground": "bgHi",
-        "installFillForeground": "bgHi",
+        "installBackground": "backgroundHi",
+        "installFillForeground": "backgroundHi",
         "installFillBackground": "magenta",
-        "installFocusedBackground": "bgHi",
+        "installFocusedBackground": "backgroundHi",
         "updateBorderColor": "purp1",
-        "updateForeground": "fg",
+        "updateForeground": "foreground",
         "updateBackground": "purp2"
       },
       "Tab": {
         "selectedBackground": "hoverBackground",
-        "selectedForeground": "fg",
+        "selectedForeground": "foreground",
         "hoverBackground": "hoverBackground"
       }
     },
@@ -279,13 +289,13 @@
       }
     },
     "SearchEverywhere": {
-      "Advertiser.foreground": "fg",
+      "Advertiser.foreground": "foreground",
       "SearchField": {
         "background": "hoverBackground"
       },
       "Tab": {
         "selectedBackground": "hoverBackground",
-        "selectedForeground": "fg"
+        "selectedForeground": "foreground"
       }
     },
     "SearchMatch": {
@@ -296,13 +306,13 @@
       "separatorColor": "separatorColor"
     },
     "SidePanel": {
-      "background": "bg"
+      "background": "background"
     },
     "Spinner": {
       "minimumSize": "72,28"
     },
     "StatusBar": {
-      "borderColor": "bgLowest"
+      "borderColor": "backgroundLowest"
     },
     "TabbedPane": {
       "tabHeight": 40,
@@ -311,17 +321,17 @@
       "focusColor": "hoverBackground",
       "hoverColor": "hoverBackground",
       "underlineColor": "purp",
-      "contentAreaColor": "bgHi"
+      "contentAreaColor": "backgroundHi"
     },
     "Table": {
       "gridColor": "hoverBackground",
       "hoverBackground": "hoverBackground"
     },
     "TableHeader": {
-      "bottomSeparatorColor": "fgGutter"
+      "bottomSeparatorColor": "foregroundGutter"
     },
     "TextArea": {
-      "background": "bgHi"
+      "background": "backgroundHi"
     },
     "TextField": {
       "background": "hoverBackground",
@@ -338,26 +348,25 @@
       "onForeground": "hoverBackground",
       "offBackground": "hoverBackground",
       "offForeground": "hoverBackground",
-      "buttonColor": "fg"
+      "buttonColor": "foreground"
     },
     "ToolBar": {
-      "background": "bg",
+      "background": "background",
       "borderHandleColor": "magenta"
     },
     "ToolWindow": {
       "Button": {
         "hoverBackground": "hoverBackground",
         "selectedBackground": "purp2"
-      }
-    },
+      },
       "Header": {
-        "background": "bg",
-        "inactiveBackground": "bgHi",
+        "background": "background",
+        "inactiveBackground": "backgroundHi",
         "borderColor": "hoverBackground"
       },
       "HeaderTab": {
         "underlineColor": "magenta2",
-        "inactiveUnderlineColor": "fgDark",
+        "inactiveUnderlineColor": "foregroundDark",
         "underlineHeight": 1,
         "underlinedTabBackground": "dark3",
         "selectedInactiveBackground": "dark5",
@@ -365,7 +374,7 @@
       }
     },
     "Tree": {
-      "background": "bg",
+      "background": "background",
       "modifiedItemForeground": "purp",
       "hoverBackground": "hoverBackground",
       "selectionBackground": "selectionBackground",
@@ -373,9 +382,9 @@
       "rowHeight": 24
     },
     "ValidationTooltip": {
-      "errorBackground": "bgHi",
+      "errorBackground": "backgroundHi",
       "errorBorderColor": "red1",
-      "warningBackground": "bgHi",
+      "warningBackground": "backgroundHi",
       "warningBorderColor": "orange"
     },
     "ToolTip.shortcutForeground": "purp",
@@ -399,16 +408,16 @@
         }
       },
       "RefLabel": {
-        "foreground": "fg"
+        "foreground": "foreground"
       }
     },
     "WelcomeScreen": {
       "SidePanel": {
-        "background": "bg"
+        "background": "background"
       },
-      "separatorColor": "fgGutter",
+      "separatorColor": "foregroundGutter",
       "Projects": {
-        "background": "bg",
+        "background": "background",
         "selectionBackground": "hoverBackground",
         "selectionInactiveBackground": "hoverBackground",
         "hoverBackground": "hoverBackground",
