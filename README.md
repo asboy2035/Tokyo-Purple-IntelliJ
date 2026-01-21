@@ -12,7 +12,6 @@ Includes light and dark mode.
 Note: this theme is currently designed primarily for HTML/CSS/JS, Vue/Nuxt, and C. While it works with other languages, the quality may vary.
 
 ## Features
-
 - Deep purple-tinted UI theme
 - Fleet-inspired syntax highlighting
 - Sleek, modern look with excellent contrast
@@ -20,7 +19,6 @@ Note: this theme is currently designed primarily for HTML/CSS/JS, Vue/Nuxt, and 
 - Supports IntelliJ IDEA, WebStorm, PyCharm, CLion, Fleet, and other JetBrains IDEs
 
 ## Credits
-
 Inspired by:
 - [Tokyo Night](https://github.com/junkfactory/tokyodark-jetbrains) (This is the original repo)
 - JetBrains Fleet

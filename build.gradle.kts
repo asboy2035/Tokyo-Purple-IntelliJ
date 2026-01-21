@@ -1,6 +1,5 @@
 import org.jetbrains.changelog.Changelog
 import org.jetbrains.changelog.markdownToHTML
-import org.jetbrains.intellij.platform.gradle.TestFrameworkType
 
 plugins {
     id("java") // Java support
@@ -20,7 +19,6 @@ kotlin {
 // Configure project's dependencies
 repositories {
     mavenCentral()
-    maven("https://oss.sonatype.org/content/repositories/snapshots/") // Required for LATEST-EAP-SNAPSHOT
     gradlePluginPortal()
     // IntelliJ Platform Gradle Plugin Repositories Extension - read more: https://plugins.jetbrains.com/docs/intellij/tools-intellij-platform-gradle-plugin-repositories-extension.html
     intellijPlatform {
@@ -44,7 +42,6 @@ dependencies {
 
         pluginVerifier()
         zipSigner()
-        testFramework(TestFrameworkType.Platform)
     }
 }
 
@@ -101,7 +98,7 @@ intellijPlatform {
 
     pluginVerification {
         ides {
-            recommended()
+            // Disable automatic IDE resolution for now to avoid EAP incompatibilities
         }
     }
 }
@@ -113,10 +110,10 @@ changelog {
 }
 
 tasks {
-    wrapper {
-        gradleVersion = providers.gradleProperty("gradleVersion").get()
+    publishPlugin {
     }
 
-    publishPlugin {
+    named("buildSearchableOptions") {
+        enabled = false
     }
 }

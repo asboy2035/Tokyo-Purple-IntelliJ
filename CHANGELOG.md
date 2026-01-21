@@ -1,4 +1,17 @@
 # Changelog
+## 1.1.0
+This update has significant improvements to the theme.
+The theme is now based on all the proper, new IntelliJ Islands theme aspects.
+
+### New!
+- Added old dark background option (TokyoPurple Uniform)
+- Significant improvement to light mode and dark mode
+- Light mode has less color hiccups
+- Fixed toolbar visual glitches
+- Improved coloring
+
+### Updated
+- Support IntelliJ 2026.1
 
 ## 1.0.0
 ### New!
