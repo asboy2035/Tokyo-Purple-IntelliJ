@@ -1,7 +1,7 @@
 {
   "name": "TokyoPurple Dark Uniform",
   "dark": true,
-  "author": "ash Ketchup <ash@a35.dev> / Jetbrains",
+  "author": "ash Ketchup <ash@a35.dev>",
   "parentTheme": "ExperimentalDark",
   "editorScheme": "/themes/TokyoDark-Purple.xml",
   "colors": {

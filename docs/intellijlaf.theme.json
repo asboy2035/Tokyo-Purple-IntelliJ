@@ -2,7 +2,7 @@
   "name": "IntelliJ",
   "dark": false,
   "parentTheme": "Darcula",
-  "author": "JetBrains",
+  "author": "ash Ketchup <ash@a35.dev>",
   "colors": {
     "black": "#000000",
     "grey01": "#6e6e6e",
